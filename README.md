@@ -1,11 +1,15 @@
-# Copy Path · 复制路径
+# Copy Path
 
-本地 Agent 协作时，经常需要提供文件或文件夹路径。右键选择“复制路径”，就能快速复制完整路径，直接粘贴给 Agent。
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-**极度轻量、快捷**：核心程序约 **5.5 KB**，用完即退出，不常驻后台；完整安装包约 **103 KB**。
+Working with local AI agents means sharing file and folder paths all the time. Right-click **Copy Path**, then paste the full path straight into your agent chat.
 
-[下载 Windows 安装包](https://github.com/vx790905119-svg/copy-path-mini/releases/latest)：下载 `.exe` 后双击安装即可。适用于 Windows 10 / 11，无需管理员权限。Windows 11 若未直接显示该菜单，请选择“显示更多选项”。
+**Extremely lightweight and fast:** the helper is just **5.5 KB** and exits immediately after copying. No background process, network access or automatic updates.
 
-卸载：Windows 设置 → 应用 → 复制路径。安装前已有的同名菜单会自动备份，卸载时恢复。
+[Download the Windows installer](https://github.com/vx790905119-svg/copy-path-mini/releases/latest). Double-click the `.exe` to install. Windows 10 / 11; no administrator rights required.
 
-源码构建：准备 Windows 自带的 .NET Framework 编译器及 [NSIS 3.13](https://nsis.sourceforge.io/)，运行 `powershell -ExecutionPolicy Bypass -File .\build.ps1`。
+Setup and the context-menu label follow your Windows display language: English or Simplified Chinese, with English as the fallback. On Windows 11, choose **Show more options** if the command is not visible.
+
+Uninstall from **Windows Settings → Apps → Copy Path**. Existing commands with the same name are backed up and restored on uninstall.
+
+To build: use the Windows .NET Framework compiler and [NSIS 3.13](https://nsis.sourceforge.io/), then run `powershell -ExecutionPolicy Bypass -File .\build.ps1`. You can also force a setup language with `/LANG=en` or `/LANG=zh-CN`.

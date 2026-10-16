@@ -1,19 +1,35 @@
-复制路径 (Copy Path) 1.0.0
+Copy Path 1.1.0
+English | 简体中文
 
-安装：双击 CopyPath-Setup-1.0.0.exe，按提示安装即可。
-只为当前 Windows 用户安装，无需管理员权限，适用于 Windows 10 / Windows 11。
+ENGLISH
+
+Install: double-click CopyPath-Setup-1.1.0.exe. Windows 10 / 11; no administrator rights required.
+Setup follows your Windows display language: English or Simplified Chinese, with English as the fallback.
+To override the setup language, use /LANG=en or /LANG=zh-CN.
+
+Use: right-click a file, folder or folder background, choose Copy Path, then press Ctrl+V to paste.
+On Windows 11, choose Show more options if the command is not visible.
+Copies one full path as text, without extra quotation marks.
+
+Uninstall: Windows Settings > Apps > Copy Path, or run Uninstall.exe in the installation folder.
+Existing commands with the same name are backed up and restored when you uninstall.
+
+The helper is about 5.5 KB and exits immediately after use. No background process, network access, ads or automatic updates.
+If another application is holding the clipboard open, try again shortly.
+This personal utility is unsigned. Keep Windows security protections enabled and verify the download source if it is blocked.
+
+简体中文
+
+安装：双击 CopyPath-Setup-1.1.0.exe。适用于 Windows 10 / 11，无需管理员权限。
+安装界面按 Windows 显示语言自动选择英文或简体中文，其他语言回退到英文。
+也可通过 /LANG=en 或 /LANG=zh-CN 指定安装语言。
 
 使用：右键文件、文件夹或文件夹空白处 → 复制路径 → Ctrl+V 粘贴。
-复制得到的是完整路径文本，不加额外引号。此工具用于单个项目的路径复制。
-Windows 11 若未直接显示，请打开右键菜单里的“显示更多选项”。
+Windows 11 若未直接显示，请打开“显示更多选项”。每次复制一个完整路径，不加额外引号。
 
-卸载：Windows 设置 → 应用 → 找到“复制路径 (Copy Path)” → 卸载。
-也可以运行安装目录中的 Uninstall.exe。
-如果安装前已有同名菜单，安装器会先备份，卸载时恢复。
+卸载：Windows 设置 → 应用 → 复制路径，或运行安装目录中的 Uninstall.exe。
+安装前已有的同名菜单会自动备份，卸载时恢复。
 
-特点：复制程序约 5.5 KB，用完即退出；无后台常驻、联网、广告、自动更新或额外安装依赖。
-安装器只操作当前用户的两项右键菜单和卸载登记，不修改其他人的账户设置。
+核心程序约 5.5 KB，用完即退出；无后台常驻、联网、广告或自动更新。
 剪贴板被其他程序持续独占时，请稍后再点一次。
-
-这是个人工具，尚未购买代码签名证书；Windows 或安全软件可能显示“未知发布者”。
-不需要关闭系统安全防护。若系统阻止运行，请先向发送者核对文件来源。
+此个人工具未做代码签名；请保留 Windows 安全防护，遇到拦截时先核对下载来源。

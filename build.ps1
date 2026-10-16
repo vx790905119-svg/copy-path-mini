@@ -25,4 +25,4 @@ try {
     & $NsisCompiler /V2 /INPUTCHARSET UTF8 'CopyPath.nsi'
     if ($LASTEXITCODE -ne 0) { throw 'Installer build failed.' }
 } finally { Pop-Location }
-Write-Output "Built: $output\CopyPath-Setup-1.0.0.exe"
+Write-Output "Built: $output\CopyPath-Setup-1.1.0.exe"
