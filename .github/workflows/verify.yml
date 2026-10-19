@@ -1,0 +1,31 @@
+name: Windows build and installer checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Fetch pinned NSIS compiler
+        shell: pwsh
+        run: |
+          $archive = Join-Path $env:RUNNER_TEMP 'nsis-3.13.zip'
+          Invoke-WebRequest 'https://github.com/tauri-apps/binary-releases/releases/download/nsis-3.13/nsis-3.13.zip' -OutFile $archive
+          if ((Get-FileHash $archive).Hash -ne 'BA63DFFC4410EE89193E1CB5A41989991BD77C61068DA17E3156D136B7B0B3D8') {
+            throw 'NSIS archive checksum mismatch.'
+          }
+          Expand-Archive $archive -DestinationPath $env:RUNNER_TEMP
+      - name: Build helper and bilingual installer
+        shell: pwsh
+        run: ./build.ps1 -NsisCompiler "$env:RUNNER_TEMP/nsis-3.13/makensis.exe"
+      - name: Verify isolated installs and original-menu restoration
+        shell: pwsh
+        run: ./Verify-Installer.ps1 -NsisCompiler "$env:RUNNER_TEMP/nsis-3.13/makensis.exe"

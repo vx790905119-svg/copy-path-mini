@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">Copy Path Mini — copy a path into your local AI agent chat</title>
+  <desc id="desc">Illustrated workflow using a fictional file. Select Copy Path in a Windows context menu, then paste C:\work\demo\notes.md into a local agent chat.</desc>
+  <rect width="1200" height="350" rx="20" fill="#0b1220"/>
+  <path d="M0 300H1200M400 0V350" stroke="#17243b"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="32" y="30" width="34" height="34" rx="9" fill="#6ee7b7"/>
+    <path d="M42 43h12v12H42zm4-5h12v12" fill="none" stroke="#0b1220" stroke-width="2.5"/>
+    <text x="79" y="54" font-size="21" font-weight="700" fill="#f1f5f9">Copy Path Mini</text>
+    <text x="32" y="120" font-size="42" font-weight="700" fill="#ffffff">Copy paths.</text>
+    <text x="32" y="169" font-size="42" font-weight="700" fill="#6ee7b7">Keep building.</text>
+    <text x="32" y="210" font-size="17" fill="#b2bfd2">From File Explorer to your agent chat.</text>
+    <rect x="32" y="239" width="104" height="31" rx="15" fill="#18283d"/>
+    <text x="51" y="260" font-size="14" font-weight="600" fill="#e2e8f0">5.5 KB core</text>
+    <rect x="146" y="239" width="210" height="31" rx="15" fill="#18283d"/>
+    <text x="164" y="260" font-size="14" fill="#e2e8f0">No background process</text>
+    <text x="32" y="326" font-size="13" fill="#8a9cb5">Windows 10 / 11 · EN / ZH-CN</text>
+    <rect x="432" y="48" width="310" height="224" rx="14" fill="#142136" stroke="#31435d"/>
+    <text x="454" y="80" font-size="14" font-weight="600" fill="#a9bdd7">1  RIGHT-CLICK</text>
+    <rect x="454" y="100" width="266" height="40" rx="7" fill="#1c2c44"/>
+    <path d="M469 112h12l5 5v15h-17z" fill="none" stroke="#94a8c4" stroke-width="1.5"/>
+    <text x="497" y="126" font-size="16" fill="#e2e8f0">notes.md</text>
+    <rect x="476" y="153" width="244" height="92" rx="8" fill="#202f44" stroke="#3c526e"/>
+    <rect x="483" y="160" width="230" height="36" rx="5" fill="#6ee7b7"/>
+    <path d="M498 173h10v10h-10zm4-4h10v10" fill="none" stroke="#0b1220" stroke-width="1.6"/>
+    <text x="526" y="184" font-size="16" font-weight="700" fill="#0b1220">Copy Path</text>
+    <text x="526" y="224" font-size="14" fill="#91a4bd">Open</text>
+    <path d="M762 166h40m-11-10 11 10-11 10" fill="none" stroke="#6ee7b7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="822" y="48" width="346" height="224" rx="14" fill="#142136" stroke="#31435d"/>
+    <text x="844" y="80" font-size="14" font-weight="600" fill="#a9bdd7">2  PASTE INTO YOUR AGENT</text>
+    <rect x="844" y="108" width="302" height="116" rx="9" fill="#0b1526" stroke="#2c405c"/>
+    <text x="862" y="140" font-size="15" fill="#d6e0ed">Please review this file:</text>
+    <text x="862" y="173" font-family="Consolas,monospace" font-size="16" fill="#6ee7b7">C:\work\demo\notes.md</text>
+    <text x="862" y="201" font-size="12" fill="#7b90ac">Plain text. No extra quotes.</text>
+    <text x="432" y="326" font-size="13" fill="#8a9cb5">Illustrated workflow · Fictional files only</text>
+  </g>
+</svg>

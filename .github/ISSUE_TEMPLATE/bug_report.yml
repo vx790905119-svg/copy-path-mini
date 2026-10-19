@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible Copy Path issue using fictional paths.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private paths, email addresses, clipboard contents, credentials, or unredacted screenshots. Use a fictional path such as C:\\work\\demo\\notes.md."
+  - type: input
+    id: version
+    attributes:
+      label: Copy Path version
+      placeholder: v1.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Setup language
+      options:
+        - English
+        - Simplified Chinese
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include expected and actual behavior, with fictional file and folder names.
+    validations:
+      required: true

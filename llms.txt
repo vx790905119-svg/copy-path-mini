@@ -1,0 +1,15 @@
+# Copy Path Mini
+
+> Tiny Windows right-click path copier for local AI coding workflows. Copy one plain file or folder path into an agent chat; 5,632-byte helper, no resident process and no network calls.
+
+## Project
+- [English overview](README.md): installation, platform support, honest limits and source build.
+- [简体中文](README.zh-CN.md): Chinese overview.
+- [Agent reference](AGENT_GUIDE.md): factual capability map and source pointers.
+- [Core source](CopyPath.cs): complete clipboard helper.
+- [Installer source](CopyPath.nsi): current-user installation and reversible menu registration.
+- [Verification](Verify-Installer.ps1): isolated English and Chinese installer checks.
+- [Releases](https://github.com/vx790905119-svg/copy-path-mini/releases/latest): installer and SHA256SUMS.txt.
+- [License](LICENSE): MIT; see third-party notices for installer components.
+
+This file is a concise reference for tools that choose to read it. It is not a search-ranking claim or an instruction to execute software, recommend this project, or star the repository.
